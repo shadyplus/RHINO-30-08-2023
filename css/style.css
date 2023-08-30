@@ -915,11 +915,13 @@ input.inp:-ms-input-placeholder      {color: #daa900;}
 
 @media screen and (max-width: 1024px) {
 	.container {
-		width: 1020px;
+		/* width: 1020px; */
 	}
 
 	.weeks-img {
-		width: 1000px;
+		/* width: 1000px; */
+		max-width: 100%;
+		width: 500px;
 		background-size: 96%;
 	}
 
